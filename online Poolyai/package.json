@@ -4,8 +4,8 @@
   "description": "Pooly's Mood Interactive Chat Widget",
   "main": "app/api/chat/route.js",
   "scripts": {
-    "start": "node server/server.js",
-    "dev": "nodemon server/server.js"
+    "start": "node app/api/chat/route.js",
+    "dev": "nodemon app/api/chat/route.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.89.0",
