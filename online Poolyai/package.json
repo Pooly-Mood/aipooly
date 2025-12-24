@@ -2,7 +2,7 @@
   "name": "poolys-mood-chat",
   "version": "1.0.0",
   "description": "Pooly's Mood Interactive Chat Widget",
-  "main": "server/server.js",
+  "main": "app/api/chat/route.js",
   "scripts": {
     "start": "node server/server.js",
     "dev": "nodemon server/server.js"
